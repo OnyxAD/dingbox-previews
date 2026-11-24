@@ -1,7 +1,16 @@
-{
-    "slug":  "package-1",
-    "title":  "Package 1: Mobile nav, contact \u0026 hero",
-    "summary":  "Mobile navigation accessibility \u0026 scroll clearance, Contact panel hierarchy, hero CTAs, and verified Fiverr review snapshot.",
-    "url":  "https://onyxad.github.io/dingbox-previews/package-1/",
-    "updatedAt":  "2026-11-24T19:43:41.6131409+00:00"
-}
+[
+    {
+        "slug":  "package-2",
+        "title":  "Package 2: Portfolio reach, case studies \u0026 proof",
+        "summary":  "Mobile portfolio index access, case-study headers, dated Fiverr review summary, and About founder introduction.",
+        "url":  "https://onyxad.github.io/dingbox-previews/package-2/",
+        "updatedAt":  "2026-11-24T19:43:47.0906725+00:00"
+    },
+    {
+        "slug":  "package-1",
+        "title":  "Package 1: Mobile nav, contact \u0026 hero",
+        "summary":  "Mobile navigation accessibility \u0026 scroll clearance, Contact panel hierarchy, hero CTAs, and verified Fiverr review snapshot.",
+        "url":  "https://onyxad.github.io/dingbox-previews/package-1/",
+        "updatedAt":  "2026-11-24T19:43:41.6131409+00:00"
+    }
+]
