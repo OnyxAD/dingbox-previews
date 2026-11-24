@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Redirecting preview...</title>
+  <script>
+    (function () {
+      var prefix = '/dingbox-previews/';
+      var p = location.pathname;
+      if (p.indexOf(prefix) === 0) {
+        var rest = p.slice(prefix.length);
+        var slug = rest.split('/')[0];
+        if (slug) {
+          sessionStorage.setItem('__gh_spa_redirect', p + location.search + location.hash);
+          location.replace(prefix + slug + '/');
+          return;
+        }
+      }
+      location.replace(prefix);
+    })();
+  </script>
+</head>
+<body>Redirecting to preview...</body>
+</html>
