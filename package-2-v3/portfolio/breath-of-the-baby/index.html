@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DingBox Games</title>
+    <link rel="icon" type="image/png" href="/dingbox-previews/package-2-v3/favicon.png" />
+    <link href="/dingbox-previews/package-2-v3/preview-media/8f029b73ef9fea33.css" rel="stylesheet" />
+    <script type="module" crossorigin src="/dingbox-previews/package-2-v3/assets/index-BruP85zQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/dingbox-previews/package-2-v3/assets/index-DoJ2YMvj.css">
+    <meta name="robots" content="noindex, nofollow" />
+<script>(function(){var r=sessionStorage.getItem('__gh_spa_redirect');if(r&&r.indexOf('/dingbox-previews/package-2-v3')===0){sessionStorage.removeItem('__gh_spa_redirect');history.replaceState(null,'',r);}})();</script>
+  <script id="preview-native-links">
+(() => {
+  const base = "/dingbox-previews/package-2-v3";
+  const routes = new Set(["/","/portfolio","/about","/testimonials","/games/crowd-chant","/portfolio/galactic-realms","/portfolio/crosslocked","/portfolio/breath-of-the-baby","/portfolio/puzzle-of-time","/portfolio/uniquechess","/portfolio/alphapuzz","/portfolio/dostadning","/portfolio/prophecy-of-fire"]);
+  function scopeLink(link) {
+    const href = link.getAttribute('href');
+    if (!href || !href.startsWith('/') || href.startsWith('//')) return;
+    if (routes.has(new URL(href, location.origin).pathname)) link.setAttribute('href', base + href);
+  }
+  new MutationObserver(records => {
+    for (const record of records) {
+      if (record.type === 'attributes' && record.target.matches('a[href]')) scopeLink(record.target);
+      for (const node of record.addedNodes) {
+        if (node.nodeType !== 1) continue;
+        if (node.matches('a[href]')) scopeLink(node);
+        node.querySelectorAll('a[href]').forEach(scopeLink);
+      }
+    }
+  }).observe(document.documentElement, {childList: true, attributes: true, attributeFilter: ['href'], subtree: true});
+})();
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+
+  </body>
+</html>

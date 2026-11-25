@@ -1,5 +1,12 @@
 [
     {
+        "slug":  "package-2-v3",
+        "title":  "DingBox Games | Package 2 v3",
+        "summary":  "Review the revised homepage opening and both project inquiry and portfolio links.",
+        "url":  "https://onyxad.github.io/dingbox-previews/package-2-v3/",
+        "updatedAt":  "2026-11-25T12:41:49.6356585+00:00"
+    },
+    {
         "slug":  "package-2-v2",
         "title":  "DingBox Games | Package 2 v2 (rebuilt on full polish)",
         "summary":  "Staging only. Featured project pages open with the brief, our contribution and status; See all projects at the top of Projects; homepage client excerpt with a dated Fiverr panel; full Client Testimonials page; About founder credit. Motion, artwork and live thumbnails kept.",
